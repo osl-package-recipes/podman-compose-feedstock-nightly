@@ -9,7 +9,7 @@ cd recipe
 
 rm -f meta.yaml
 
-wget https://github.com/conda-forge/podman-compose-feedstock/blob/main/recipe/meta.yaml
+wget https://raw.githubusercontent.com/conda-forge/podman-compose-feedstock/main/recipe/meta.yaml
 export URL_PATTERN="https\:\/\/pypi\.io\/packages\/source\/.*\.tar\.gz$"
 export GIT_URL="https://github.com/containers/podman-compose"
 export BUILD_NUMBER=0
