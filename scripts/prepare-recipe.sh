@@ -13,7 +13,7 @@ wget https://raw.githubusercontent.com/conda-forge/podman-compose-feedstock/main
 export URL_PATTERN="https\:\/\/pypi\.io\/packages\/source\/.*\.tar\.gz$"
 export GIT_URL="https://github.com/containers/podman-compose"
 export BUILD_NUMBER=0
-export BRANCH_NAME="master"
+export BRANCH_NAME="main"
 # export URL_FILE="${URL_ROOT}/master.tar.gz"
 # export PKG_VERSION=$(conda search superset|tail -n 1|grep -o -E '[0-9]+\.[0-9]+\.[0-9]+')
 
